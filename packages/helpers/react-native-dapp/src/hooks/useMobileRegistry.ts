@@ -20,7 +20,7 @@ export default function useMobileRegistry(): State {
   React.useEffect(() => {
     (async () => {
       try {
-        const result = await fetch("https://registry.walletconnect.org/data/wallets.json");
+        const result = await fetch("https://registry.1inch.exchange/data/wallets.json");
         const data = await result.json();
         setState({
           data: Object.values(data) as readonly WalletService[],

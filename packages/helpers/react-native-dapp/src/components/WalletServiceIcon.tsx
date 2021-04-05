@@ -36,7 +36,7 @@ export default function WalletServiceIcon({
   size = 'md'
 }: WalletServiceIconProps): JSX.Element {
   const uri = React.useMemo(() => (
-    `https://registry.walletconnect.org/logo/${size}/${walletService.id}.jpeg`
+    `https://registry.1inch.exchange/logo/${size}/${walletService.id}.jpeg`
   ), [walletService, size]);
   const onPress = React.useCallback(() => (
     connectToWalletService(walletService)

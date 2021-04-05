@@ -1,6 +1,6 @@
 import { IMobileRegistryEntry, IAppRegistry, IAppEntry } from "@walletconnect/types";
 
-const API_URL = "https://registry.walletconnect.org";
+const API_URL = "https://registry.1inch.exchange";
 
 export function getWalletRegistryUrl(): string {
   return API_URL + "/data/wallets.json";
